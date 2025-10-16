@@ -138,16 +138,16 @@ ___ &mt LSHFT LG(Z) &mt LCTRL LG(X) &mt LALT LG(C) &mt LGUI LG(D) &mt RALT LG(V)
 //         ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 //         ┃   Ä   ┃()=>{ }┃   !   ┃   =   ┃   $   ┃             ┃       ┃       ┃       ┃       ┃       ┃
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┓
-// ┃   ^   ┃   ~   ┃   @   ┃   [   ┃   ]   ┃   ?   ┃             ┃ R ALT ┃  CMD  ┃  ALT  ┃ CTRL  ┃       ┃       ┃
+// ┃   ^   ┃   ~   ┃   =>  ┃   [   ┃   ]   ┃   ?   ┃             ┃ R ALT ┃  CMD  ┃  ALT  ┃ CTRL  ┃       ┃       ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                               ┃  =>   ┃   |   ┃   &   ┃ ┃  ###  ┃   <   ┃   >   ┃
+//                               ┃   @   ┃   |   ┃   &   ┃ ┃  ###  ┃   <   ┃   >   ┃
 //                               ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
             bindings = <
 //       ╷         ╷        ╷        ╷         ╷         ╷   ╷         ╷        ╷        ╷         ╷   ╷   ╷
           &kp GRAVE &kp HASH &kp STAR &kp PRCNT &kp UNDER     &kp RA(U) ___      ___      &kp RA(O) ___
           &kp RA(A) &arrowfn &kp EXCL &kp EQUAL &kp DLLR      ___       ___      ___      ___       ___
-&kp CARET &kp TILDE &kp AT   &kp LBKT &kp RBKT  &kp QMARK     &kp RALT  &kp LCMD &kp LALT &kp LCTRL ___ ___
-                             &arrow   &kp PIPE  &kp AMPS      &trans    &kp LT   &kp GT
+&kp CARET &kp TILDE &arrow   &kp LBKT &kp RBKT  &kp QMARK     &kp RALT  &kp LCMD &kp LALT &kp LCTRL ___ ___
+                             &kp AT   &kp PIPE  &kp AMPS      &trans    &kp LT   &kp GT
             >;
         };
 
